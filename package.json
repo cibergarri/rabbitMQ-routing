@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "constants.js",
+  "scripts": {
+    "receiver": "node ./receive-log",
+    "emitter": "node ./emit-log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cibergarri/rabbitMQ-routing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cibergarri/rabbitMQ-routing/issues"
+  },
+  "homepage": "https://github.com/cibergarri/rabbitMQ-routing#readme",
+  "dependencies": {
+    "amqplib": "0.5.5"
+  }
+}
